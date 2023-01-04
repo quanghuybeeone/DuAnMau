@@ -1,0 +1,34 @@
+/* Column container */
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side-flex {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+/* Main column */
+.main-flex {
+    flex: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+/* Fake image, just for this example */
+.fakeimg-flex {
+    background-color: white;
+    width: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .row-flex,
+    .navbar-flex {
+        flex-direction: column;
+    }
+}
