@@ -2280,6 +2280,106 @@ nav .modal .cart-total-price {
     border: 1px solid var(--color-neutral-3);
 }
 /* ================END-PRODUCT-DETAIL================ */
+
+/* ================PAYMENT================ */
+.section-22 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-22 .swapper-1 .content-1 {
+    font-family: var(--text-title-font);
+    font-size: var(--big-title-size);
+    font-weight: bold;
+    color: var(--color-primary-1);
+    text-align: center;
+    padding: 10px;
+}
+
+.section-22 .swapper-1 .map {
+    padding: 10px;
+}
+
+.section-22 .swapper-1 .map {
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    color: var(--color-neutral-1);
+}
+
+.section-22 .swapper-1 .map .label {
+    font-weight: bold;
+    color: var(--color-primary-2);
+    padding: 10px;
+    text-align: center;
+}
+
+.section-22 .swapper-1 .map .info {
+    padding: 5px;
+}
+
+.section-22 .swapper-1 .content-2 {
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    color: var(--color-neutral-1);
+    padding: 10px;
+}
+
+.section-22 .swapper-1 .content-2 .label {
+    font-weight: bold;
+    color: var(--color-primary-2);
+    padding: 10px;
+    text-align: center;
+}
+
+.section-22 .swapper-1 .content-2 .info {
+    padding: 5px;
+}
+
+.section-22 .swapper-1 .content-2 form {
+    padding: 20px;
+    border: 1px solid var(--color-neutral-3);
+}
+
+.section-22 .swapper-1 .content-2 form .form-group {
+    padding: 5px 0px;
+}
+
+.section-22 .swapper-1 .content-2 form input[type=tel],
+.section-22 .swapper-1 .content-2 form input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid var(--color-neutral-2);
+    border-radius: 4px;
+}
+
+.section-22 .swapper-1 .content-2 form textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 100px;
+    width: 100%;
+    border: 1px solid var(--color-neutral-2);
+    border-radius: 4px;
+}
+
+.section-22 .swapper-1 .content-2 form button {
+    padding: 10px 25px;
+    color: var(--color-neutral-5);
+    background-color: var(--color-primary-2);
+    border: none;
+    border: 1px solid var(--color-primary-2);
+}
+
+.section-22 .swapper-1 .content-2 form button:hover {
+    color: var(--color-primary-2);
+    background-color: var(--color-neutral-5);
+    border: 1px solid var(--color-primary-2);
+    cursor: pointer;
+}
+
+/* ================END-PAYMENT================ */
+
 /* FOOTER */
 footer {
     background: var(--color-neutral-4);
